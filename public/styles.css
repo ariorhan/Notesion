@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color:#a29bfe;
+    height: 100px;
+    color: white;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    
+}
+
+.header h1 {
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+.note {
+    /* display:inline-block; */
+    float:left;
+    width: 240px;
+    height: auto;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow:0 2px 5px rgb(139, 132, 132);
+    background-color: whitesmoke;
+
+}
+
+.footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+.footer-copy{
+    position: relative;
+    color: rgb(182, 169, 169);
+    
+}
+
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    background-color: #a29bfe;
+
+  }
+  
+  form.create-note {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(206, 207, 205);
+  }
+  form.create-note input,
+  form.create-note textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    background-color: white;
+  }
+  form.create-note button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #a29bfe;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+.palette {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.palette button {
+    margin: 10px;    
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    color: white; 
+    border: none;   
+}
+
+.pink{
+    background-color:pink;
+}
+
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color:greenyellow;
+}
+.purple{
+    background-color:purple;
+}
