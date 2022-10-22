@@ -18,6 +18,9 @@ export default function Color() {
         <button className='yellow'></button>
         <button className='green'></button>
         <button className='purple'></button>
+        <button className='yellow'></button>
+        <button className='green'></button>
+        <button className='purple'></button>
     </div>
   )
 }
